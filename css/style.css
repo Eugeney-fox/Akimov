@@ -12,6 +12,7 @@ h1{
     font-size: 80px;
     font-weight: 600;
     color: #6e7380;
+    max-width: 540px;
 }
 
 .nav{
@@ -19,12 +20,73 @@ h1{
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+    display:flex;
+}
+
+.nav>li{
+    padding:0 15px;
+}
+
+.nav-item{
+    color:#6e7ea9;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #1085e4;
+    text-transform:uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding:25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
+}
+
+.btn-primary:hover{
+    color: #1085e4;
+    background-color: #fff;
+}
+
+.btn-secondary{
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    text-transform:uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding:25px 45px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #cbdbe8;
+}
+.btn-secondary:hover{
+    background-color: #aff;
+}
+
+.btn-group a+a{
+
+    margin-left:15px;
+
 }
 
 .btn-free{
-    color: #fff;
     font-weight: 400;
-    background-color: #1085e4;
+    letter-spacing: 2.3px;
+    padding:25px 60px;
+}
+.btn-info{
+    color:#8085b1;
+    background:transparent;
+    border:1px solid #dce1e5;
+    text-transform:uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    padding:25px 45px;
+    border-radius: 30px;
+    
 }
 
 .grid h2{
@@ -49,4 +111,31 @@ h1{
     font-size: 14px;
     font-weight: 600;
     color: #1085e4;
+}
+
+.list-stat{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+   
+}
+
+.list-stat>li{
+    font-size: 12;
+    font-weight: 700;
+    color: #1085e4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+
+}
+
+.list-stat>li span{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    letter-spacing: 0;
+    
 }
